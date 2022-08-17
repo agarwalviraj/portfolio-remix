@@ -1,0 +1,42 @@
+.about-me {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h1,
+    h3,
+    p {
+      width: clamp(30%, 60%, 680px);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-decoration: underline dashed $hover-color;
+    }
+    h3 {
+      // margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      line-height: 1.5;
+    }
+  }
+}
+@media screen and (max-width: $breakpoint-tablet) {
+  .about-me {
+    .text {
+      h1,
+      h3,
+      p {
+        width: 100%;
+      }
+    }
+  }
+}

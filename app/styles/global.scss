@@ -1,0 +1,132 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+
+  font: inherit;
+  letter-spacing: 0em;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+
+  ::-moz-selection,
+  ::selection {
+    /* Code for Firefox */
+    color: $hover-color;
+    background: $accent-color;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.4rem;
+
+    &:hover,
+    &:active {
+      width: 1rem;
+    }
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgba($color: gray, $alpha: 0.1);
+    border-radius: $window-border-radius;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba($color: #000000, $alpha: 0.8);
+  }
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote {
+  &:before,
+  &:after {
+    content: "";
+    content: none;
+  }
+}
+
+q {
+  &:before,
+  &:after {
+    content: "";
+    content: none;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.main {
+  position: relative;
+}
+
+h1 {
+  font-size: $step-5;
+  font-weight: 900;
+}
+h2 {
+  font-size: $step-4;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: $step-3;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: $step-2;
+}
+
+h5 {
+  font-size: $step--1;
+}
+
+h6 {
+  font-size: $step--2;
+}
+
+p {
+  font-size: $step--1;
+}
+span {
+  font-size: $step--2;
+}
+
+@import "./desktop.scss";
+@import "./sections";

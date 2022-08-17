@@ -1,0 +1,54 @@
+.projects {
+  .all-projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.25rem;
+    padding: 2rem;
+
+    .project {
+      width: clamp(420px, 27%, 600px);
+      text-align: center;
+      background: #004055;
+      padding: 1rem;
+      border-radius: $window-border-radius;
+      cursor: pointer;
+      transition: transform 0.3s ease-out;
+
+      img {
+        border-radius: $window-border-radius;
+      }
+      h4 {
+        color: black;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.single-project {
+  .heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  .description {
+    display: flex;
+    p {
+      width: 50%;
+    }
+    img {
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+$font-stack: Helvetica, sans-serif;
+$accent-color: #333;
+
+$taskbar-height: 2.7rem;
+$window-border-radius: 1.25rem;
+
+$hover-color: #9df4ff;
+$focus-color: #0099ff;
+
+$titlebar-background: #333;
+
+$close-button: #fd5f56;
+$minimize-button: #ffbd2b;
+$maximize-button: #2cc941;
+
+$breakpoint-tablet: 768px;
+
+// $step--2: clamp(0.35rem, calc(0.09rem + 1.29vw), 1.12rem);
+// $step--1: clamp(0.42rem, calc(0.09rem + 1.64vw), 1.4rem);
+// $step-0: clamp(0.5rem, calc(0.08rem + 2.08vw), 1.75rem);
+// $step-1: clamp(0.6rem, calc(0.07rem + 2.65vw), 2.19rem);
+// $step-2: clamp(0.72rem, calc(0.05rem + 3.36vw), 2.73rem);
+// $step-3: clamp(0.86rem, calc(0.01rem + 4.26vw), 3.42rem);
+// $step-4: clamp(1.04rem, calc(-0.04rem + 5.39vw), 4.27rem);
+// $step-5: clamp(1.24rem, calc(-0.12rem + 6.83vw), 5.34rem);
+
+$step--2: clamp(0.78rem, calc(0.65rem + 0.66vw), 1.12rem);
+$step--1: clamp(0.94rem, calc(0.76rem + 0.9vw), 1.4rem);
+$step-0: clamp(1.13rem, calc(0.88rem + 1.22vw), 1.75rem);
+$step-1: clamp(1.35rem, calc(1.02rem + 1.63vw), 2.19rem);
+$step-2: clamp(1.62rem, calc(1.19rem + 2.17vw), 2.73rem);
+$step-3: clamp(1.94rem, calc(1.37rem + 2.88vw), 3.42rem);
+$step-4: clamp(2.33rem, calc(1.58rem + 3.79vw), 4.27rem);
+$step-5: clamp(2.8rem, calc(1.81rem + 4.96vw), 5.34rem);

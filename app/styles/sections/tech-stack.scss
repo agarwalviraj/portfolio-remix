@@ -1,0 +1,29 @@
+.tech-stack {
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    img {
+      width: 15rem;
+      height: 15rem;
+      object-fit: contain;
+
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: $window-border-radius;
+      padding: 2rem;
+      box-shadow: 1rem 1rem 1rem 1px rgba(0, 0, 0, 0.2);
+      transition: all 150ms ease-in;
+      cursor: pointer;
+
+      &:hover {
+        scale: 1.05;
+        box-shadow: 1.25rem 1.25rem 1.25rem 1px rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+}
