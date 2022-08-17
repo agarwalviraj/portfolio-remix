@@ -26,7 +26,7 @@ const Projects = () => {
   );
 
   const allProjects: projectType[] = [
-    { image: Sandesh, name: "Sandesh", description: "hello" },
+    { image: Sandesh, name: "Sandesh", description: "" },
     { image: Mozofest, name: "Mozofest" },
     { image: EventsPortal, name: "SRMKZILLA - Events Portal" },
 

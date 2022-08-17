@@ -40,7 +40,7 @@ const Home = () => {
 
   return (
     <div className="main">
-      {!helpShown && step > 0 && <Help step={step} setStep={setStep} />}
+      {/* {!helpShown && step > 0 && <Help step={step} setStep={setStep} />} */}
       <Wallpaper />
       <Taskbar />
       <Icons />
