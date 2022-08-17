@@ -5,7 +5,14 @@ import { MainContentContext, useMainStore } from "../store/MainStore";
 import { slugs } from "../utils/types";
 import styles from "../styles/global.css";
 
-export const links = () => [{ rel: "stylesheet", href: styles }];
+export const links = () => [
+  {
+    rel: "preload",
+    href: "../../public/assets/wallpaper.png",
+    as: "image",
+  },
+  { rel: "stylesheet", href: styles },
+];
 
 const Home = () => {
   const { allApplications, recents, helpShown, setHelpShown } =

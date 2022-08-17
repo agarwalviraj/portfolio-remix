@@ -1,6 +1,7 @@
 import { useMainStore } from "../store/MainStore";
 import { maximizeOne } from "../utils/actions";
 import { Launcher } from "./";
+import image from "../../public/Logo.svg";
 
 const Taskbar = () => {
   const {
@@ -21,7 +22,7 @@ const Taskbar = () => {
       <div className="taskbar">
         <div className="taskbar-icons">
           <div className="app-launcher">
-            <img src="/Logo.svg" onClick={() => setAppLauncher(!appLauncher)} />
+            <img src={image} onClick={() => setAppLauncher(!appLauncher)} />
           </div>
 
           {allApplications

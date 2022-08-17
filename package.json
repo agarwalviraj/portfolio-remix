@@ -8,7 +8,7 @@
     "dev:miniflare": "cross-env NODE_ENV=development miniflare ./build/index.js --watch",
     "dev": "remix build && run-p \"dev:*\"",
     "start": "cross-env NODE_ENV=production miniflare ./build/index.js",
-    "sass": "sass --watch app/:app/"
+    "sass": "sass --watch app/styles/global.scss:app/styles/global.css --style compressed"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^1.6.8",

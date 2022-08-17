@@ -11,7 +11,7 @@ import MainContentProvider from "./store/MainStore";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Viraj Agarwal | Portfolio",
   viewport: "width=device-width,initial-scale=1",
 });
 
